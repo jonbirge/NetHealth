@@ -1,6 +1,6 @@
 function [succ, delay] = ping(host)
 
-headstr = 'ping -o -t 3';
+headstr = 'ping -o -t 1';
 cmdstr = [headstr, ' ', host];
 [s, m] = unix(cmdstr);
 
