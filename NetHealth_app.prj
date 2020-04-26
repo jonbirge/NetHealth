@@ -3,12 +3,12 @@
     <param.appname>NetHealth</param.appname>
     <param.icon />
     <param.icons />
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.authnamewatermark>J. Birge</param.authnamewatermark>
     <param.email>birge@mit.edu</param.email>
     <param.company>MIT</param.company>
-    <param.summary />
-    <param.description />
+    <param.summary>Test network health via ping delay.</param.summary>
+    <param.description>Stupid little program to monitor and plot network health in the context of ping delays. This seems to be a fairly good indicator of VPN connection health. Once ping times get above 100 ms, resetting the connection usually helps.</param.description>
     <param.screenshot>${PROJECT_ROOT}/examples/screenshot.png</param.screenshot>
     <param.guid />
     <param.installpath.string>/MIT/NetHealth/</param.installpath.string>
@@ -53,9 +53,6 @@ ${DYLD_LIBRARY_PATH}:MR/v97/runtime/maci64:MR/v97/sys/os/maci64:MR/v97/bin/maci6
     <unset>
       <param.icon />
       <param.icons />
-      <param.version />
-      <param.summary />
-      <param.description />
       <param.guid />
       <param.installpath.string />
       <param.installpath.combo />
