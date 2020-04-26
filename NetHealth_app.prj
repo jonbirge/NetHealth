@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration file="/Users/jo23192/Desktop/NetHealth/NetHealth_1.prj" location="/Users/jo23192/Desktop/NetHealth" name="NetHealth_1" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="3223743346" file="/Users/jo23192/Documents/Development/NetHealth/NetHealth_app.prj" location="/Users/jo23192/Documents/Development/NetHealth" name="NetHealth_app" preferred-package-location="/Users/jo23192/Documents/Development/NetHealth/NetHealth_app/for_redistribution" preferred-package-type="package.type.app" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>NetHealth</param.appname>
     <param.icon />
     <param.icons />
@@ -9,7 +9,7 @@
     <param.company>MIT</param.company>
     <param.summary />
     <param.description />
-    <param.screenshot />
+    <param.screenshot>${PROJECT_ROOT}/examples/screenshot.png</param.screenshot>
     <param.guid />
     <param.installpath.string>/MIT/NetHealth/</param.installpath.string>
     <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
@@ -24,10 +24,10 @@ MR/v97/runtime/maci64:MR/v97/sys/os/maci64:MR/v97/bin/maci64
 If it is defined, set it to the following:
 
 ${DYLD_LIBRARY_PATH}:MR/v97/runtime/maci64:MR/v97/sys/os/maci64:MR/v97/bin/maci64</param.target.install.notes>
-    <param.intermediate>${PROJECT_ROOT}/NetHealth_1/for_testing</param.intermediate>
-    <param.files.only>${PROJECT_ROOT}/NetHealth_1/for_redistribution_files_only</param.files.only>
-    <param.output>${PROJECT_ROOT}/NetHealth_1/for_redistribution</param.output>
-    <param.logdir>${PROJECT_ROOT}/NetHealth_1</param.logdir>
+    <param.intermediate>${PROJECT_ROOT}/NetHealth_app/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/NetHealth_app/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/NetHealth_app/for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}/NetHealth_app</param.logdir>
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.target.type>subtarget.standalone</param.target.type>
@@ -56,7 +56,6 @@ ${DYLD_LIBRARY_PATH}:MR/v97/runtime/maci64:MR/v97/sys/os/maci64:MR/v97/bin/maci6
       <param.version />
       <param.summary />
       <param.description />
-      <param.screenshot />
       <param.guid />
       <param.installpath.string />
       <param.installpath.combo />
@@ -92,10 +91,10 @@ ${DYLD_LIBRARY_PATH}:MR/v97/runtime/maci64:MR/v97/sys/os/maci64:MR/v97/bin/maci6
       <file>${PROJECT_ROOT}/ping.m</file>
     </fileset.depfun>
     <build-deliverables>
-      <file location="${PROJECT_ROOT}/NetHealth_1/for_testing" name="NetHealth.app" optional="false">/Users/jo23192/Desktop/NetHealth/NetHealth_1/for_testing/NetHealth.app</file>
-      <file location="${PROJECT_ROOT}/NetHealth_1/for_testing" name="readme.txt" optional="true">/Users/jo23192/Desktop/NetHealth/NetHealth_1/for_testing/readme.txt</file>
-      <file location="${PROJECT_ROOT}/NetHealth_1/for_testing" name="run_NetHealth.sh" optional="false">/Users/jo23192/Desktop/NetHealth/NetHealth_1/for_testing/run_NetHealth.sh</file>
-      <file location="${PROJECT_ROOT}/NetHealth_1/for_testing" name="splash.png" optional="false">/Users/jo23192/Desktop/NetHealth/NetHealth_1/for_testing/splash.png</file>
+      <file location="${PROJECT_ROOT}/NetHealth_app/for_testing" name="run_NetHealth.sh" optional="false">/Users/jo23192/Documents/Development/NetHealth/NetHealth_app/for_testing/run_NetHealth.sh</file>
+      <file location="${PROJECT_ROOT}/NetHealth_app/for_testing" name="NetHealth.app" optional="false">/Users/jo23192/Documents/Development/NetHealth/NetHealth_app/for_testing/NetHealth.app</file>
+      <file location="${PROJECT_ROOT}/NetHealth_app/for_testing" name="readme.txt" optional="true">/Users/jo23192/Documents/Development/NetHealth/NetHealth_app/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/NetHealth_app/for_testing" name="splash.png" optional="false">/Users/jo23192/Documents/Development/NetHealth/NetHealth_app/for_testing/splash.png</file>
     </build-deliverables>
     <workflow />
     <matlab>

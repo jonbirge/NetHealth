@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="221998393" file="/Users/jo23192/Desktop/NetHealth/NetHealth.prj" location="/Users/jo23192/Desktop/NetHealth" name="NetHealth" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="221998393" file="/Users/jo23192/Documents/Development/NetHealth/NetHealth.prj" location="/Users/jo23192/Documents/Development/NetHealth" name="NetHealth" target="target.mlapps" target-name="Package App">
     <param.appname>NetHealth</param.appname>
     <param.authnamewatermark>J. Birge</param.authnamewatermark>
     <param.email>birge@mit.edu</param.email>
@@ -9,7 +9,7 @@
     <param.summary />
     <param.description />
     <param.screenshot />
-    <param.version>1.0</param.version>
+    <param.version>1.1</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
@@ -22,7 +22,6 @@
       <param.summary />
       <param.description />
       <param.screenshot />
-      <param.version />
       <param.products.name />
       <param.products.id />
       <param.products.version />
@@ -37,7 +36,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}" name="app" optional="false">/Users/jo23192/Desktop/NetHealth/app</file>
+      <file location="${PROJECT_ROOT}" name="app" optional="false">/Users/jo23192/Documents/Development/NetHealth/app</file>
     </build-deliverables>
     <workflow />
     <matlab>
